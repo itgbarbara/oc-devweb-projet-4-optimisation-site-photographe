@@ -72,20 +72,25 @@ body {
 
 }
 #about-me {
-	flex: 2
+	flex: 2;
 }
 .about-me__title {
 	margin-top: 1em;
 	margin-bottom: 60px;
 	font-size: 30px;
 }
+
 .about-me__introduction {
 	font-family: 'Spectral';
 	font-weight: 800;
 	font-style: italic;
 	width: 60%;
+	font-size: 1rem;
+	line-height: 1.2;
+	margin-bottom: 0.5rem;
 }
-#about-me p {
+
+.about-me__description {
 	width: 80%;
 	font-size: 14px;
 }
@@ -147,6 +152,9 @@ body {
 	font-family: Spectral;
 	font-style: italic;
 	font-weight: 300;
+	font-size: 2.5rem;
+	margin-bottom: 0.5rem;
+	line-height: 1.2;
 
 }
 .quote__author {
@@ -188,6 +196,16 @@ body {
 	flex-direction: column;
 	justify-content: space-between;
 	z-index: 1;
+}
+
+dl, dd {
+	margin: 0;
+}
+
+.service__price dt {
+	font-size: 1.5rem;
+	font-weight: 500;
+	margin-bottom: 0.5rem;
 }
 
 #contact {
