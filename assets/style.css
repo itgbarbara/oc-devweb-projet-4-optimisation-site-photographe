@@ -99,10 +99,6 @@ h2 {
 	font-size: 14px;
 }
 
-/* #gallery {
-	min-height: 100vh;
-} */
-
 .title{
 	text-align: center;
 	padding-block: 2em;
@@ -135,15 +131,6 @@ h2 {
 	height: 100%;
 	object-fit: cover;
 	padding: .5em;
-}
-.mg-prev, .mg-next {
-	width: 30px;
-	height: 30px;
-	border-radius: 00%;
-	justify-content: center;
-	align-items: center;
-	display: flex;
-	font-size: 24px;
 }
 
 .quote {
@@ -239,10 +226,6 @@ dl, dd {
 	flex: 2;
 }
 
-/* .form-container {
-	flex : 2;
-
-} */
 form {
 	display: flex;
 	flex-direction: column;
